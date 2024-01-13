@@ -7,4 +7,5 @@
 3) Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+## React App Overview
 ![React App](https://github.com/Vasu604/RandomGif/assets/114499970/2467d0ea-f845-48f0-95f0-4be9c10e7692)
