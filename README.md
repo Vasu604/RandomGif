@@ -9,3 +9,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ## React App Overview
 ![React App](https://github.com/Vasu604/RandomGif/assets/114499970/2467d0ea-f845-48f0-95f0-4be9c10e7692)
+
+## Technologies Used:
+
+1) React: The project leverages the React library for efficient and modular front-end development.
+2) Giphy API: External API integration for fetching a diverse range of GIFs.
+3) Responsive Design: CSS or a responsive design framework ensures a consistent user experience across devices.
