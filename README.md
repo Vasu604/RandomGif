@@ -12,6 +12,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ## Technologies Used:
 
-1) React: The project leverages the React library for efficient and modular front-end development.
-2) Giphy API: External API integration for fetching a diverse range of GIFs.
-3) Responsive Design: CSS or a responsive design framework ensures a consistent user experience across devices.
+i. React: The project leverages the React library for efficient and modular front-end development.
+ii. Giphy API: External API integration for fetching a diverse range of GIFs.
+iii. Responsive Design: CSS or a responsive design framework ensures a consistent user experience across devices.
