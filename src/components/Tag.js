@@ -1,16 +1,16 @@
-import React, { useEffect, useState } from 'react'
-import axios from 'axios'
+import React, { useState } from 'react'
+// import axios from 'axios'
 import Spinner from './Spinner';
 import useGif from '../hooks/useGif';
 
 
-const API_KEY = process.env.REACT_APP_GIPHY_API_KEY
+// const API_KEY = process.env.REACT_APP_GIPHY_API_KEY
 const Tag = () => {
 
   // const [gif, setGif] = useState('');
   // const [loading, setLoading] = useState('false')
-  const [tag, SetTag] = useState('car')
-  const { gif, loading, fetchData } = useGif(tag);
+  const [tag, SetTag] = useState('bike')
+  const { gif, loading, fetchData } = useGif(tag); // pass tag to useGif hook 
 
   // async function fetchData() {
   //   setLoading(true)  // pehle loading hogi, phir api call hui, phir loading ko false krdia genrate ke baad 
@@ -48,7 +48,7 @@ const Tag = () => {
         onChange={changeHandler}
         value={tag}
       />
-      <button onClick={clickHandler}
+      <button onClick={() => fetchData(tag)}
         className='w-10/12 bg-white text-lg py-1 rounded-lg mb-[20px]'>Generate</button>
     </div>
   )
